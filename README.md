@@ -12,7 +12,7 @@ Uses [Elliptic Curve Integrated Encryption Scheme (ECIES)](https://cryptobook.na
 `npm install bfp-encrypt`
 
 # Example Data / Message Send
-Below is an example of sending a text message from one address (sender WIF) to the P2PKH address associated with the recipient's public key.
+Below is an example of sending a text message from one address (sender WIF) to the P2PKH address associated with the recipient's public key. It uses the most recent UTXO in the sender's address and, if the UTXO amount is inadequate, will give an error saying the minimum satoshis necessary to send the data.
 ```javascript
 const BfpEncrypt = require('bfp-encrypt');
 
