@@ -1,6 +1,6 @@
 {
   "name": "bfp-encrypt",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Node.js library to encrypt and decrypt data using the Bitcoin File Protocol on Bitcoin Cash",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "bitbox-sdk": "^8.11.2",
-    "bitcoinfiles-node": "^0.5.3",
+    "bitcoinfiles-node": "^0.5.4",
     "eccrypto-js": "^4.5.2",
     "wif": "^2.0.6"
   }
