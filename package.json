@@ -1,7 +1,7 @@
 {
   "name": "bfp-encrypt",
   "version": "0.0.1",
-  "description": "Node.js library to encrypt and decrypt data using the Bitcoin File Protocol",
+  "description": "Node.js library to encrypt and decrypt data using the Bitcoin File Protocol on Bitcoin Cash",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
