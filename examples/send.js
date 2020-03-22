@@ -10,8 +10,8 @@ const fileExt = '.txt';
 
     try {
         let bfpEnc = new BfpEncrypt();
-        let fileId = await bfpEnc.sendData(data, senderWif, recipientPublicKey, fileName, fileExt);
-        console.log('fileId:', fileId);
+        let bfpUri = await bfpEnc.sendData(data, senderWif, recipientPublicKey, fileName, fileExt);
+        console.log('BFP File ID:', bfpUri);
     } catch (e) {
         console.error(e)
     }
