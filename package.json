@@ -19,7 +19,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "bitbox-sdk": "^8.11.2",
-    "bitcoinfiles": "^0.5.2",
+    "bitcoinfiles-node": "^0.5.3",
     "eccrypto-js": "^4.5.2",
     "wif": "^2.0.6"
   }

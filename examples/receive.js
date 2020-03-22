@@ -1,7 +1,7 @@
 const BfpEncrypt = require('../lib/BfpEncrypt');
 
 const recipientWif = 'L1xkJtaYWBzvs4VnusLqbfKJKDuY2cZ3qB8mePeNWccfcJPHyyGL';
-const bfpUri = 'bitcoinfile:1a26ed85244943308e3bc4415f09ee7618eb2af852faa941b172cb03511b03bc';
+const bfpUri = 'bitcoinfile:2de05ed87120e99dcc1c6606fd156ec4500bc1271aba2a71566e00769e65a85c';
 
 (async function(){
 
