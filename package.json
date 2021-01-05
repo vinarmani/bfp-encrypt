@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/vinarmani/bfp-encrypt#readme",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bitbox-sdk": "^8.11.2",
     "bitcoinfiles-node": "^0.5.4",
     "eccrypto-js": "^4.5.2",
